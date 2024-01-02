@@ -20,10 +20,10 @@ const createLinkElements = (linkArray) => {
 const pageConfig = {
     common: {
         links: [
-            { rel: 'manifest', href: '/src/manifest.json' },
+            { rel: 'manifest', href: './src/manifest.json' },
             { rel: 'canonical', href: page_url}, //page_url must be set in every created page and should be placed above <script src="./config/config.js"></script>
-            { rel: 'icon', href: '/src/image/icon.svg'},
-            { rel: 'stylesheet', href: '/src/css/style.css'},
+            { rel: 'icon', href: './src/image/icon.svg'},
+            { rel: 'stylesheet', href: './src/css/style.css'},
             // Add other elements here
         ],
         meta: [
